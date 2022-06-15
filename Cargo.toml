@@ -1,0 +1,10 @@
+[package]
+name = "egui-md"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+egui = { git = "https://github.com/emilk/egui.git", rev = "dc26890a8044a02784980311811399778011c3b9" }
+eframe = { git = "https://github.com/emilk/egui.git", rev = "dc26890a8044a02784980311811399778011c3b9" }
